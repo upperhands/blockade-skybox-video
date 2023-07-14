@@ -16,11 +16,11 @@ $ python -m src.main -i {path to your skybox image} -o {path to output video} --
 	"width": 1920,
 	"height": 1080,
 	"fps": 60,
-	"duration": 10, // In seconds
+	"duration": 10,
 	"format": "MPEG4",
 	"constant-rate-factor": "HIGH",
-	"start-angle": 20, // In degrees
-	"end-angle": 40, // In degrees
+	"start-angle": 20,
+	"end-angle": 40,
 	"start-focal-length": 10,
 	"mid-focal-length": 30,
 	"end-focal-length": 10,
