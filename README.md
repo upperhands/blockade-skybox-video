@@ -1,9 +1,5 @@
 # blockade-skybox-video
 Convert your skybox images created using [Blockade Skybox](https://skybox.blockadelabs.com/) to videos!
-<div align="center">
-    <img src="https://api-documentation.blockadelabs.com/img/logo.jpg" width="200" />
-    <img src="https://pingvinus.ru/cr_images/modelImage/application/587-logo-Blender.png" width="200" />
-</div>
 
 ## Example Usage
 ```
