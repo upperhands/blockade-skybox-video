@@ -105,8 +105,11 @@ def get_parser() -> argparse.ArgumentParser:
                         default=getDefaultBlender(),
                         help='path to blender executable')
     parser.add_argument('--path-to-script', '-P', required=False,
-                        type=str, default=os.path.dirname(
-                            os.path.dirname(__file__)),
+                        type=str, default=os.path.join(
+                            os.path.dirname(
+                                os.path.dirname(__file__)),
+                            'blockade', 'main.py'
+                        ),
                         help='path to script')
     return parser
 
