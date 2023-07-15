@@ -36,6 +36,12 @@ usage: Blockade Skybox Video Converter [-h] --input INPUT [--config-file CONFIG_
                                        [--save-config-file SAVE_CONFIG_FILE] [--blender BLENDER] [--path-to-script PATH_TO_SCRIPT]
 ```
 
+## Example Video
+
+
+https://github.com/upperhands/blockade-skybox-video/assets/107340417/6c8775de-2d93-41a7-bb37-42deb7a39cc4
+
+
 ## Thanks!
 Thanks for visiting Blockade Skybox Video Converter! I don't really know much about Blender. With that in mind, I've made this video converter to help people who don't know much about Blender (just like me) to convert their skybox images to videos! If you have any feature requests, please feel free to open up an issue. If you liked this project, you can leave a star :star:! If you would like to contribute, you should feel free to do so!
 
