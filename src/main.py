@@ -18,7 +18,7 @@ CONFIG_KEYS: set[str] = {
     'output',
     'width',
     'height',
-    'duration'
+    'duration',
     'fps',
     'format',
     'constant-rate-factor',
@@ -74,6 +74,8 @@ def get_parser() -> argparse.ArgumentParser:
                         default=None, help='configuration file')
     parser.add_argument('--output', '-o', required=False, type=str,
                         default='output.mp4', help='output video (mp4)')
+    parser.add_argument('--width', required=False, type=int,
+                        default=1080, help='width of output video')
     parser.add_argument('--height', required=False, type=int,
                         default=1920, help='height of output video')
     parser.add_argument('--fps', required=False, type=int,
